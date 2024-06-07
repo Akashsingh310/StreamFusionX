@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream FusionX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stream FusionX</h1>
+        <form id="rtmp-form">
+            <input type="text" id="rtmp-url" placeholder="Enter RTMP URL" required>
+            <button type="submit">Start Streaming</button>
+        </form>
+        <div class="video-container">
+            <video id="user-video" autoplay muted></video>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

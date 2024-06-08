@@ -1,5 +1,7 @@
 # StreamFusionX
 
+A live streaming service that allows you to broadcast video directly from your browser to multiple social media platforms
+
 ## Prerequisites
 
 You need to have Docker installed on your machine.
